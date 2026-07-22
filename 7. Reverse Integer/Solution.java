@@ -6,7 +6,7 @@ class Solution {
 
             // Checking for overflow
             if (rev>Integer.MAX_VALUE/10|| 
-                (rev ==Integer.MAX_VALUE/10 && digit>7))
+                (rev ==Integer.MAX_VALUE/10 && digit>7)) 
                 return 0;
 
             // underflow checking
