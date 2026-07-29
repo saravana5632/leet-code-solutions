@@ -5,6 +5,7 @@ This repository contains my Java solutions to LeetCode problems. It serves as a 
 ## Language
 
 - Java
+- Python
 
 ## Repository Structure
 
@@ -14,11 +15,7 @@ Example:
 ```
 1. Two Sum
 7. Reverse Integer
-9. Palindrome Number
-26. Remove Duplicates from Sorted Array
-27. Remove Element
-29. Divide Two Integers
-```
+
 
 ## Purpose
 
