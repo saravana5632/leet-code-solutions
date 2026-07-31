@@ -4,8 +4,9 @@ public class Solution {
         int maxarea=0;
         int currentheight=0;
         while (l<r){
+            int width=r-l;
             currentheight=Math.min(height[l],height[r]);
-            int area = (r-l) * currentheight;
+            int area = width * currentheight;
             maxarea= Math.max(area,maxarea);
             if ( height[l]<height[r]){
                 l++;
