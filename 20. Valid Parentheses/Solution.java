@@ -7,15 +7,14 @@ public class Solution {
                 res.push(s.charAt(i));    
             else if (s.charAt(i)==')' || s.charAt(i)=='}' || s.charAt(i)==']')
             {
-                char temp= s.charAt(i);
                 if(res.isEmpty())
                     return false;
-                char peek1=res.peek();
-                if (peek1=='(' && temp==')')
+                char temp= s.charAt(i);
+                if (res.peek()=='(' && temp==')')
                     res.pop();
-                else if (peek1=='{' && temp=='}')
+                else if (res.peek()=='{' && temp=='}')
                     res.pop();
-                else if (peek1=='[' && temp==']')
+                else if (res.peek()=='[' && temp==']')
                     res.pop();
                 else 
                  return false;
